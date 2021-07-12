@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+/* google open font nur stellvertretend*/
+* {font-family: 'Open Sans', sans-serif;
+letter-spacing: 4px;
+background-color: white;
+background-image: none;
+/* hab mal ne farbe genommen und den bg auf none gesetzt*/
+}
+
+.container {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+min-height: 10vh;
+/* nicht ganz oben //Abstand*/
+}
+
+
+/*idle state*/
+.jescbtn-1 {
+width: 300px;
+height: 100px;
+border: none;
+color: white;
+background-color: #0c0096;
+border-radius: 8px;
+/* ich wuerde eher gar keinen radius machen, is eh alles eckig*/
+box-shadow: inset 0 0 0 0 #0378ef;
+transition: ease-out 0.3s;
+font-size: 2.5rem;
+outline: none;
+}
+
+
+/*hover state*/
+.jescbtn-1:hover {
+color: #000000;
+cursor: pointer;
+box-shadow: inset 300px 0 0 0 #0378ef;
+font-size: 3rem;
+
+}
+
+
+/*active/pressed state*/
+.jescbtn-1:active {
+    color: #e0ed08;
+    
+}
+
+/*visited state*/
+.jescbtn-1:visited {
+    color: #ed084d;
+    /*Kurt, I assume that is my mistake here*/
+}
+    
+
+
+
+
+
+
+
+
+
+/* css script jesc button 2nd. layout*/
+
+
